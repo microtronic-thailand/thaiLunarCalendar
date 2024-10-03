@@ -3,17 +3,27 @@
 
 โครงการนี้สร้างขึ้นโดยการช่วยเหลือจาก AI
 
-## สิ่งที่ต้องทำ :
+## สิ่งที่ต้องทำ
 
-ศึกษาหลักการคำนวณวันจันทรคติ : การคำนวณวันจันทรคตินั้นมีความซับซ้อนกว่าปฏิทินสุริยคติทั่วไป ต้องอาศัยหลักการทางดาราศาสตร์และคณิตศาสตร์หลายอย่าง
-เลือกอัลกอริทึม : มีหลายอัลกอริทึมที่ใช้ในการคำนวณวันจันทรคติ เราต้องเลือกอัลกอริทึมที่เหมาะสมกับความต้องการของเรา
-เขียนโค้ด : เขียนโค้ด JavaScript เพื่อนำอัลกอริทึมมาใช้งาน
-ตัวอย่างง่ายๆ :
+- [ศึกษาหลักการคำนวณวันจันทรคติ](/src/reference/ThaiLunarCalendar.md)
+- [เลือกใช้ React Framework](/src/framework.md) [NEXT.js](https://nextjs.org/) ([Next14](/thai-lunar-calendar/README.md))
+  - Package : [react-calendar](https://www.npmjs.com/package/react-calendar) NPM : `npm i react-calendar` [codesandbox](https://codesandbox.io/p/sandbox/react-calendar-lunar-calendar-forked-tpq9y7?workspaceId=aad51c82-9ff1-4445-99e1-0ac15ef39a39)
+
+## เริ่มพัฒนา
+
+GitHub Project : [https://github.com/microtronic-thailand/thaiLunarCalendar](https://github.com/microtronic-thailand/thaiLunarCalendar)
+
+ใน Directory > thaiLunarCalendar ติดตั้ง node_module (`npm install`)
+
+```bash
+cd thai-lunar-calendar
+
+npm run dev
+```
 
 สมมติว่าเราต้องการคำนวณวันขึ้น 15 ค้างเดือน (วันเพ็ญ) โดยประมาณ เราสามารถใช้หลักการที่ว่า 1 เดือนจันทรคติมีประมาณ 29.5 วัน แล้วนำมาคำนวณได้ดังนี้
 
-```
-JavaScript
+```JavaScript
 function calculateFullMoonDay(year) {
   // สมมติว่าเริ่มต้นปีด้วยวันขึ้น 1 ค่ำ
   const daysInLunarMonth = 29.5;
