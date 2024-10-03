@@ -7,7 +7,8 @@
 
 - [ศึกษาหลักการคำนวณวันจันทรคติ](/src/reference/ThaiLunarCalendar.md)
 - [เลือกใช้ React Framework](/src/framework.md) [NEXT.js](https://nextjs.org/) ([Next14](/thai-lunar-calendar/README.md))
-  - Package : [react-calendar](https://www.npmjs.com/package/react-calendar) NPM : `npm i react-calendar` ([ข้อมูลเพิ่มเติม](/src/package_react-calendar.md))
+  - Package : [date-fns](https://www.npmjs.com/package/date-fns) NPM : `npm install date-fns --save`
+  - Package : [react-calendar](https://www.npmjs.com/package/react-calendar) NPM : `npm i react-calendar`
   - Package : [lunarphase-js](https://www.npmjs.com/package/lunarphase-js)  NPM : `npm i lunarphase-js`
   - [codesandbox](https://codesandbox.io/p/sandbox/react-calendar-lunar-calendar-forked-tpq9y7?workspaceId=aad51c82-9ff1-4445-99e1-0ac15ef39a39)
 
@@ -47,16 +48,14 @@ console.log("วันเพ็ญในปี", year, "ประมาณวั
 
 ## สิ่งที่ต้องทำเพิ่มเติม :
 
+- ศึกษาข้อมูลเพิ่มเติม เกี่ยวกับ Libary [date-fns](https://date-fns.org/docs/Getting-Started), [react-calendar](/src/package_react-calendar.md)
 - ศึกษาอัลกอริทึม : หาข้อมูลเกี่ยวกับอัลกอริทึมที่ใช้ในการคำนวณวันจันทรคติ เช่น อัลกอริทึมของท้องถิ่น หรืออัลกอริทึมที่ใช้ในภาษาบาลี
-- หาไลบารี : อาจมีไลบารี JavaScript ที่ช่วยในการคำนวณวันจันทรคติอยู่แล้ว การใช้ไลบารีจะช่วยให้คุณไม่ต้องเขียนโค้ดทั้งหมดเอง
 - ทดสอบ : ทดสอบโปรแกรมของคุณกับข้อมูลจริงเพื่อตรวจสอบความถูกต้อง
 
 หากคุณต้องการความช่วยเหลือเพิ่มเติม
 
 - บอกรายละเอียด : บอกให้ฉันทราบว่าคุณต้องการคำนวณอะไรบ้าง เช่น วันขึ้น 15 ค่ำ, วันพระใหญ่, หรือวันสำคัญทางศาสนา
 - ระดับความรู้ : บอกระดับความรู้ด้านการเขียนโปรแกรมของคุณ
-- ภาษาโปรแกรม : ถ้าคุณต้องการใช้ภาษาอื่นนอกจาก JavaScript ก็สามารถบอกได้
-ฉันพร้อมที่จะช่วยเหลือคุณตลอดเวลาค่ะ
 
 ## คำถามเพิ่มเติม :
 
