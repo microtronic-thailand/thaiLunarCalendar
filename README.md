@@ -1,5 +1,5 @@
 # thaiLunarCalendar
-โครงการปฏิทินจันทรคติไทย
+ โครงการปฏิทินจันทรคติไทย
 
 โครงการนี้สร้างขึ้นโดยการช่วยเหลือจาก AI
 
@@ -7,7 +7,7 @@
 
 - [ศึกษาหลักการคำนวณวันจันทรคติ](/src/reference/ThaiLunarCalendar.md)
 - [เลือกใช้ React Framework](/src/framework.md) [NEXT.js](https://nextjs.org/) ([Next14](/thai-lunar-calendar/README.md))
-  - Package : [react-calendar](https://www.npmjs.com/package/react-calendar) NPM : `npm i react-calendar`
+  - Package : [react-calendar](https://www.npmjs.com/package/react-calendar) NPM : `npm i react-calendar` ([ข้อมูลเพิ่มเติม](/src/package_react-calendar.md))
   - Package : [lunarphase-js](https://www.npmjs.com/package/lunarphase-js)  NPM : `npm i lunarphase-js`
   - [codesandbox](https://codesandbox.io/p/sandbox/react-calendar-lunar-calendar-forked-tpq9y7?workspaceId=aad51c82-9ff1-4445-99e1-0ac15ef39a39)
 
