@@ -75,6 +75,4 @@ function LunarCalendar() {
 คุณต้องการเชื่อมต่อปฏิทินกับฐานข้อมูลหรือระบบอื่นๆ หรือไม่
 คำถามเหล่านี้จะช่วยให้ฉันสามารถให้คำแนะนำที่ตรงกับความต้องการของคุณได้มากขึ้นค่ะ
 
-ข้อมูลเพิ่มเติม : [https://github.com/vinhnglx/react-native-vietnamese-lunar-calendar](https://github.com/vinhnglx/react-native-vietnamese-lunar-calendar)
-
-NOTE : สำหรับ react native [https://github.com/Txiaozhe/react-native-lunar-calendar](https://github.com/Txiaozhe/react-native-lunar-calendar)
+NOTE : สำหรับ react native [https://github.com/Txiaozhe/react-native-lunar-calendar](https://github.com/Txiaozhe/react-native-lunar-calendar), [https://github.com/vinhnglx/react-native-vietnamese-lunar-calendar](https://github.com/vinhnglx/react-native-vietnamese-lunar-calendar)
